@@ -1,0 +1,118 @@
+#f1 {
+max-width: 500px;
+border-radius: 25px;
+background-color: black;
+color: white;
+font-family: "Lucida Handwriting";
+font-size: 15px;
+box-shadow: 0 10px 20px 0 gray, 0 10px 30px 0 gray;
+margin: auto;
+padding: 10px;
+spacing:10px;
+display: flex;
+}
+
+#f2 {
+max-width: 700px;
+border-radius: 25px;
+background-color: white;
+color: black;
+font-family: "Lucida Handwriting";
+font-size: 15px;
+margin: auto;
+box-shadow: 0 10px 20px 0 gray, 0 10px 30px 0 gray;
+padding: 10px;
+spacing:10px;
+display: flex;
+}
+
+#b {
+
+font-family: "Lucida Handwriting";
+color: orange;
+text-align: center;
+}
+
+select {
+height:30px;
+width: 200px;
+font-family:"Lucida Handwriting";
+}
+
+select-selected:after
+{
+border-color: transparent transparent transparent transparent;
+}
+
+input[type=date]
+{
+height:30px;
+width: 20%;
+
+font-family: "Lucida Handwriting";
+font-size: 15px;
+}
+
+input[type=number]
+{
+height:30px;
+width: 10%;
+
+font-family: "Lucida Handwriting";
+font-size: 15px;
+}
+
+input[type=text]
+{
+height:30px;
+width: 60%;
+
+font-family: "Lucida Handwriting";
+font-size: 15px;
+}
+
+input[type=textarea]
+{
+height:200px;
+width: 400px;
+border-radius: 10px;
+font-family: "Lucida Handwriting";
+font-size: 15px;
+}
+
+input[type=tel], input[type=email]{
+height:30px;
+width: 60%;
+
+font-family: "Lucida Handwriting";
+font-size: 15px;
+}
+
+
+input[type=submit], button
+{
+margin-left: 30%;
+height:50px;
+width: 200px;
+background-color: orange;
+border-radius: 10px;
+font-family: "Lucida Handwriting";
+color: white;
+font-size: 20px;
+
+}
+
+dd a
+{
+text-decoration: none;
+color: black;
+font-family: "Lucida Handwriting";
+font-size: 25px;
+background-color: orange;
+}
+
+table
+{margin: auto;
+
+box-shadow: 0 10px 20px 0 gray, 0 10px 30px 0 gray;
+}
